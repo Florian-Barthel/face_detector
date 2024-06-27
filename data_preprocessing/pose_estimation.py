@@ -16,7 +16,7 @@ class PoseEstimator:
             'phase': 'test',
             'init_path': None,
             'use_last_fc': False,
-            'bfm_folder': 'additional_modules/deep3dfacerecon/BFM',
+            'bfm_folder': 'face_detector/additional_modules/deep3dfacerecon/BFM',
             'bfm_model': 'BFM_model_front.mat',
             'epoch': 20,
             'checkpoint_path': 'pretrained_models/deep3dfacerecon_epoch20.pth',

@@ -14,7 +14,7 @@ OUTPUT_SIZE = 512
 
 class ImageCropper:
     def __init__(self, lm3d=None):
-        bfm_folder = osp.join('additional_modules/deep3dfacerecon/BFM')
+        bfm_folder = osp.join('face_detector/additional_modules/deep3dfacerecon/BFM')
         if lm3d is None:
             self.lm3d_std = load_lm3d(bfm_folder)
         else:
