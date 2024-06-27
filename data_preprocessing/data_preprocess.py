@@ -1,5 +1,7 @@
 import torch
 import torchvision.transforms as transforms
+import sys
+sys.path.append("face_detector")
 
 import cv2
 import face_alignment
